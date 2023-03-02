@@ -138,8 +138,12 @@ void main() {
   };
 //   world.India = {
   print('');
+  print(world);
   print(world['Pakistan']);
-  print(world['India']);
+  print(world['Pakistan']['capitalCity']);
+  print(world['India']['capitalCity']);
+  print(world['India']['currency']);
+  // print(world['India']['language']);
   print('');
   /*****************************/
   /*****************************/
